@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8092745801350581535
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2625976094138983632}
+  m_Layer: 0
+  m_Name: The Red Elephant and Path
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2625976094138983632
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8092745801350581535}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 875560013830827513}
+  - {fileID: 3209775197821938468}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &172465638205606704
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2625976094138983632}
+    m_Modifications:
+    - target: {fileID: 39019762005215373, guid: d800572e6b6ef4947b9e730bd9d82a3b, type: 3}
+      propertyPath: rail
+      value: 
+      objectReference: {fileID: 3209775197821938488}
+    - target: {fileID: 181072478288571224, guid: d800572e6b6ef4947b9e730bd9d82a3b, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 1027425051816289993, guid: d800572e6b6ef4947b9e730bd9d82a3b, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1027425051816289993, guid: d800572e6b6ef4947b9e730bd9d82a3b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -512.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1027425051816289993, guid: d800572e6b6ef4947b9e730bd9d82a3b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1027425051816289993, guid: d800572e6b6ef4947b9e730bd9d82a3b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -266.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1027425051816289993, guid: d800572e6b6ef4947b9e730bd9d82a3b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.703597
+      objectReference: {fileID: 0}
+    - target: {fileID: 1027425051816289993, guid: d800572e6b6ef4947b9e730bd9d82a3b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1027425051816289993, guid: d800572e6b6ef4947b9e730bd9d82a3b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7105993
+      objectReference: {fileID: 0}
+    - target: {fileID: 1027425051816289993, guid: d800572e6b6ef4947b9e730bd9d82a3b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1027425051816289993, guid: d800572e6b6ef4947b9e730bd9d82a3b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1027425051816289993, guid: d800572e6b6ef4947b9e730bd9d82a3b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90.567
+      objectReference: {fileID: 0}
+    - target: {fileID: 1027425051816289993, guid: d800572e6b6ef4947b9e730bd9d82a3b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1027425051816289994, guid: d800572e6b6ef4947b9e730bd9d82a3b, type: 3}
+      propertyPath: m_Name
+      value: The Elephant Red (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1824526640545377515, guid: d800572e6b6ef4947b9e730bd9d82a3b, type: 3}
+      propertyPath: encounterScript
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8333096889334311807, guid: d800572e6b6ef4947b9e730bd9d82a3b, type: 3}
+      propertyPath: peanutToDrop
+      value: 
+      objectReference: {fileID: 521203802233135391}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d800572e6b6ef4947b9e730bd9d82a3b, type: 3}
+--- !u!4 &875560013830827513 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1027425051816289993, guid: d800572e6b6ef4947b9e730bd9d82a3b, type: 3}
+  m_PrefabInstance: {fileID: 172465638205606704}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &521203802233135391 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 387037495508118063, guid: d800572e6b6ef4947b9e730bd9d82a3b, type: 3}
+  m_PrefabInstance: {fileID: 172465638205606704}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6716070326067306257
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2625976094138983632}
+    m_Modifications:
+    - target: {fileID: 8196322527241417768, guid: b0be82afb2d40e040916485f01dfee9e, type: 3}
+      propertyPath: m_Name
+      value: Elephant path (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8196322527241417781, guid: b0be82afb2d40e040916485f01dfee9e, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8196322527241417781, guid: b0be82afb2d40e040916485f01dfee9e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 8196322527241417781, guid: b0be82afb2d40e040916485f01dfee9e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 8196322527241417781, guid: b0be82afb2d40e040916485f01dfee9e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 8196322527241417781, guid: b0be82afb2d40e040916485f01dfee9e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -465.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8196322527241417781, guid: b0be82afb2d40e040916485f01dfee9e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8196322527241417781, guid: b0be82afb2d40e040916485f01dfee9e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -153.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8196322527241417781, guid: b0be82afb2d40e040916485f01dfee9e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9946471
+      objectReference: {fileID: 0}
+    - target: {fileID: 8196322527241417781, guid: b0be82afb2d40e040916485f01dfee9e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8196322527241417781, guid: b0be82afb2d40e040916485f01dfee9e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.10333065
+      objectReference: {fileID: 0}
+    - target: {fileID: 8196322527241417781, guid: b0be82afb2d40e040916485f01dfee9e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8196322527241417781, guid: b0be82afb2d40e040916485f01dfee9e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8196322527241417781, guid: b0be82afb2d40e040916485f01dfee9e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 11.862
+      objectReference: {fileID: 0}
+    - target: {fileID: 8196322527241417781, guid: b0be82afb2d40e040916485f01dfee9e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b0be82afb2d40e040916485f01dfee9e, type: 3}
+--- !u!4 &3209775197821938468 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8196322527241417781, guid: b0be82afb2d40e040916485f01dfee9e, type: 3}
+  m_PrefabInstance: {fileID: 6716070326067306257}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3209775197821938488 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8196322527241417769, guid: b0be82afb2d40e040916485f01dfee9e, type: 3}
+  m_PrefabInstance: {fileID: 6716070326067306257}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d57783c94ab80ad41966678a4c038d1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
